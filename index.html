@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan — Portfólio</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">Ryan.</span>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre mim</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-badge">✦ Disponível para projetos</div>
+  <h1 class="hero-name">Ryan</h1>
+  <p class="hero-desc">
+    Desenvolvedor apaixonado por criar experiências digitais modernas,
+    funcionais e com design de alto nível.
+  </p>
+  <div class="hero-cta">
+    <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+    <a href="#sobre" class="btn btn-outline">Sobre mim</a>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>scroll</span>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <!-- Substitua o emoji por uma tag <img> com sua foto -->
+        <div class="about-avatar reveal">👤</div>
+      </div>
+      <div class="reveal">
+        <span class="section-tag">sobre mim</span>
+        <h2 class="section-title">Quem sou eu</h2>
+        <div class="section-line"></div>
+        <div class="about-text">
+          <p>
+            Olá! Sou o Ryan, um desenvolvedor com foco em criar soluções elegantes
+            e eficientes. Tenho paixão por design, código limpo e experiências que
+            realmente importam para o usuário.
+          </p>
+          <p>
+            Aqui você pode adicionar mais informações sobre sua trajetória, valores,
+            objetivos e o que te torna único como profissional.
+          </p>
+        </div>
+        <div class="skills-list">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">React</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:3rem;">
+      <span class="section-tag">projetos</span>
+      <h2 class="section-title">O que já criei</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"></div>
+  </div>
+</section>
+
+<footer id="contato">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-name">Ryan</div>
+      <div class="footer-sub">Desenvolvedor · Designer · Criador</div>
+    </div>
+    <!-- Substitua os href="#" pelos seus links reais -->
+    <div class="footer-links">
+      <a href="https://github.com/RyanCruzzz" class="social-link" title="GitHub" target="_blank">GH</a>
+      <a href="https://www.linkedin.com/in/ryanoficial/" class="social-link" title="LinkedIn" target="_blank">in</a>
+      <a href="mailto:ryanaprendiz2023@gmail.com" class="social-link" title="Email">@</a>
+    </div>
+    <div class="footer-copy">© 2025 Ryan — Todos os direitos reservados</div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-wrapper">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal" id="modal">
+      <div class="modal-media">
+        <div class="media-viewer" id="mediaViewer">🖼️</div>
+        <div class="media-nav">
+          <button class="media-nav-btn" id="mediaPrev">◀</button>
+          <div class="media-dots" id="mediaDots"></div>
+          <button class="media-nav-btn" id="mediaNext">▶</button>
+        </div>
+      </div>
+      <div class="modal-info" id="modalInfo"></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
